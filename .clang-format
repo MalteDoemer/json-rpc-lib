@@ -1,0 +1,30 @@
+Language: Cpp
+BasedOnStyle: WebKit
+
+ColumnLimit: 120
+SpaceAfterTemplateKeyword: false
+AccessModifierOffset: -4
+SortIncludes: false
+SpaceInEmptyBlock: false
+NamespaceIndentation: None
+
+AlignEscapedNewlines: Right
+AlignTrailingComments: true
+
+BreakBeforeInheritanceComma: true
+
+AlwaysBreakTemplateDeclarations: true
+
+BreakConstructorInitializers: AfterColon
+AllowAllConstructorInitializersOnNextLine: true
+ConstructorInitializerAllOnOneLineOrOnePerLine: true
+
+BreakBeforeBraces: Custom
+BraceWrapping:
+    AfterFunction: true
+
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortBlocksOnASingleLine: Empty
+AllowShortLoopsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: Inline
+
